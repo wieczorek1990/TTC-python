@@ -1,0 +1,4 @@
+#!/bin/sh
+# Runner for ttc.
+
+python3 ttc.py
