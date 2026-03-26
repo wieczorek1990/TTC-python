@@ -19,11 +19,11 @@ class Music:
             return
 
         for msg in self.midi_file.play():
-            if msg.type == 'note_on':
+            if msg.type == "note_on":
                 self.synthesizer.noteon(0, msg.note, msg.velocity)
-            elif msg.type == 'note_off':
+            elif msg.type == "note_off":
                 self.synthesizer.noteoff(0, msg.note)
-            elif msg.type == 'program_change':
+            elif msg.type == "program_change":
                 self.synthesizer.program_change(0, msg.program)
 
     def stop(self):

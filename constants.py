@@ -1,9 +1,12 @@
 import pygame_menu
 
 NAME = "TRIPLE TRIAD CONSOLE"
+
 WIDTH, HEIGHT = 800, 600
 HALF_WIDTH, HALF_HEIGHT = WIDTH / 2, HEIGHT / 2
-THEME = pygame_menu.themes.THEME_BLUE
+
 BLUE = (0, 0, 255)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
+
+THEME = pygame_menu.themes.THEME_BLUE

@@ -3,3 +3,4 @@ py_singleton
 pyfluidsynth
 pygame
 pygame_menu
+python-rtmidi
